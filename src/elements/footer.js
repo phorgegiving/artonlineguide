@@ -42,7 +42,7 @@ export default customElements.define('footer-element', class FooterElement exten
       </flex-row>
     </flex-row>
     <flex-row>
-      made with love <a style="padding-left: 6px;" href="#!/contributers">by</a>
+      made with love <a href="#!/contributers" style="padding-left: 6px;" >by Iondependent and phorge</a>
     </flex-row>
     `
   }

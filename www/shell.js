@@ -935,7 +935,7 @@ customElements.define('footer-element', class FooterElement extends HTMLElement 
       </flex-row>
     </flex-row>
     <flex-row>
-      made with love <a style="padding-left: 6px;" href="#!/contributers">by</a>
+      made with love <a href="#!/contributers" style="padding-left: 6px;" >by Iondependent and phorge</a>
     </flex-row>
     `
   }
@@ -1025,12 +1025,12 @@ var shell = customElements.define('guide-shell', class GuideShell extends HTMLEl
     return `
     <style>
       * {
-        pointer-events: none;
+    pointer-events: auto;
       }
       :host {
         display: flex;
         flex-direction: column;
-        background: var(--main-background-color);
+        background: #111;
         color: var(--main-color);
         position: absolute;
         top: 0;

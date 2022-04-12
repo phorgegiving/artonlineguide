@@ -20,9 +20,21 @@ var platform = customElements.define('platform-guide', class PlatformGuide exten
   container-element {
     margin-bottom: 24px;
   }
+  article {
+    margin: 5em auto 0;
+    padding: 1em;
+    font-size: 140%;
+    max-width: 800px;
+    background: #222;
+    color: #eee;
+    box-shadow: rgba(0,0,0,.05) 0 3px 15px;
+    border-radius: 20px;
+    transition: background-color 500ms;
+  }
 </style>
 
-<container-element>
+
+<article>
   <h4>Getting a mining card</h4>
   <p>
     Using mining platform requires you to have a mining card wich are available on the
@@ -32,9 +44,9 @@ var platform = customElements.define('platform-guide', class PlatformGuide exten
   <p>
     A pop up metamask window should appear. Press confirm, the card you bought is now yours. If it didnt happen, make sure the transaction was successful.
   </p>
-</container-element>
+  </article> 
 
-<container-element>
+<article>
   <h4>Miner ROI</h4>
 
   <p>
@@ -48,10 +60,10 @@ var platform = customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>Yearly</h4>
       <flex-one></flex-one>
-      <h4>ROI</h4>
+      <h4>ROI</h4> 
     </flex-row>
   </flex-column>
-</container-element>
+</article>
     `
   }
 });

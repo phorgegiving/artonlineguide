@@ -8,6 +8,9 @@ var exchange = customElements.define('exchange-guide', class ExchangeGuide exten
   get template() {
     return `
 <style>
+*{
+  pointer-events: auto;
+}
   :host {
     display: flex;
     height: 100%;
@@ -19,19 +22,30 @@ var exchange = customElements.define('exchange-guide', class ExchangeGuide exten
 
   a {
     pointer-events: auto;
-    color: var(--accent-color);
+    color: coral;
     text-decoration: none;
   }
-
+  article {
+    margin: 5em auto 0;
+    padding: 1em;
+    font-size: 140%;
+    max-width: 800px;
+    background: #222;
+    color: #eee;
+    box-shadow: rgba(0,0,0,.05) 0 3px 15px;
+    border-radius: 20px;
+    transition: background-color 500ms;
+  }
 </style>
 
-<container-element>
+
+<article>
 <h4>Buying a miner using the exchange</h4>
 <p>
   Buying a GPU from exchange is simular to buying it from the mining app.
   Go to the market and select a preferable miner. Press "buy" button right under preferable miner and confirm the transaction. You should recieve the purchased miner within 5 minutes.
 </p>
-
+ 
 <h4>Listing from wallet</h4>
 
 <ul>
@@ -45,7 +59,8 @@ Enter
 0x535e67270f4feb15bffbfe86fee308b81799a7a5
 in "currency to recieve" field if you would like to recieve artonline. Enter 0x0 if you would like to recieve BNB. Enter the price of your miner (it can be any price) in "price" field. Press "list" button and approve the transaction. Your miner will get listed on exchange within 10 minutes.
 </p>
-</container-element>
+</article>
+
     `
   }
 });

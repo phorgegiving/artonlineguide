@@ -54,12 +54,12 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
     return `
     <style>
       * {
-        pointer-events: none;
+    pointer-events: auto;
       }
       :host {
         display: flex;
         flex-direction: column;
-        background: var(--main-background-color);
+        background: #111;
         color: var(--main-color);
         position: absolute;
         top: 0;

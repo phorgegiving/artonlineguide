@@ -8,6 +8,9 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
   get template() {
     return `
 <style>
+*{
+  pointer-events: auto;
+}
   :host {
     display: flex;
     height: 100%;
@@ -19,7 +22,7 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
 
   a {
     pointer-events: auto;
-    color: var(--accent-color);
+    color: coral;
     text-decoration: none;
   }
   article {
@@ -35,7 +38,7 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
   }
 </style>
 
-<container-element>
+
 <article>
 <h4>Buying a miner using the exchange</h4>
 <p>
@@ -57,7 +60,8 @@ Enter
 in "currency to recieve" field if you would like to recieve artonline. Enter 0x0 if you would like to recieve BNB. Enter the price of your miner (it can be any price) in "price" field. Press "list" button and approve the transaction. Your miner will get listed on exchange within 10 minutes.
 </p>
 </article>
-</container-element>
+
     `
   }
 })
+ 
