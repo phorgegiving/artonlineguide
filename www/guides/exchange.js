@@ -36,6 +36,14 @@ var exchange = customElements.define('exchange-guide', class ExchangeGuide exten
     border-radius: 20px;
     transition: background-color 500ms;
   }
+  article p {
+    margin: 0;
+    color: #333;
+    transition: color 500ms;
+  }
+  article p + p {
+    margin-top: .7em;
+  }
 </style>
 
 

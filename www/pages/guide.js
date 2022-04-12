@@ -38,6 +38,8 @@ var guide = customElements.define('guide-page', class GuidePage extends HTMLElem
       :host {
         display: flex;
         flex-direction: column;
+        pointer-events: auto
+        overflow-y: auto
       }
 
       custom-tab {
