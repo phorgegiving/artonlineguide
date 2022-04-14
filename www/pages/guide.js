@@ -38,8 +38,8 @@ var guide = customElements.define('guide-page', class GuidePage extends HTMLElem
       :host {
         display: flex;
         flex-direction: column;
-        pointer-events: auto
-        overflow-y: auto
+        pointer-events: auto;
+        overflow-y: auto;
       }
 
       custom-tab {
@@ -56,6 +56,8 @@ var guide = customElements.define('guide-page', class GuidePage extends HTMLElem
       <custom-tabs attr-for-selected="data-route">
         <custom-tab data-route="platform"><span>platform</span></custom-tab>
         <custom-tab data-route="exchange"><span>exchange</span></custom-tab>
+        <custom-tab data-route="lottery"><span>lottery</span></custom-tab>
+        <custom-tab data-route="chain"><span>chain</span></custom-tab>
       </custom-tabs>
     </flex-row>
 

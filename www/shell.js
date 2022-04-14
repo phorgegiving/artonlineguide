@@ -915,7 +915,8 @@ customElements.define('footer-element', class FooterElement extends HTMLElement 
       }
 
       a {
-        text-decoration: none;
+        text-decoration: none;\
+        color: coral;
       }
     </style>
     <flex-row>
