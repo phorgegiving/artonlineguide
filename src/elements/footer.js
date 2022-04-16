@@ -22,7 +22,8 @@ export default customElements.define('footer-element', class FooterElement exten
       }
 
       a {
-        text-decoration: none;
+        text-decoration: none;\
+        color: coral;
       }
     </style>
     <flex-row>
