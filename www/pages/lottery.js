@@ -15,7 +15,8 @@ var lottery = customElements.define('lottery-guide', class LotteryGuide extends 
       display: flex;
       height: 100%;
       width: 100%;
-  
+      pointer-events: auto;
+      overflow-y: auto;
       align-items: center;
       justify-content: center;
     }
@@ -30,6 +31,7 @@ var lottery = customElements.define('lottery-guide', class LotteryGuide extends 
       padding: 1em;
       font-size: 140%;
       max-width: 800px;
+      min-width: 400px;
       background: var(--secondary-background-color);
       color: #eee;
       box-shadow: rgba(0,0,0,.05) 0 3px 15px;

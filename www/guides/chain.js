@@ -46,5 +46,5 @@ var chain = customElements.define('chain-guide', class ChainGuide extends HTMLEl
       `
     }
   });
-  
-  export { chain as default };
+
+export { chain as default };

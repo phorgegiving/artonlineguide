@@ -55,6 +55,11 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
     <style>
       * {
     pointer-events: auto;
+    :-webkit-scrollbar-thumb {
+      background-color: blue;    
+      border-radius: 20px;       
+      border: 3px solid orange;  
+    }
       }
       :host {
         display: flex;
@@ -66,7 +71,6 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
         left: 0;
         bottom: 0;
         right: 0;
-
         --custom-tab-color: var(--main-color);
       }
 

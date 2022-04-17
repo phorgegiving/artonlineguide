@@ -7,6 +7,9 @@ export default customElements.define('platform-guide', class PlatformGuide exten
 
   get template() {
     return `
+    *{
+      pointer-events: auto;
+    }
 <style>
   :host {
     flex-direction: column;
@@ -19,7 +22,6 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     pointer-events: auto !important;
     overflow-y: auto;
   }
-
   container-element {
     margin-bottom: 24px;
   }
@@ -32,12 +34,11 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     color: #eee;
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     border-radius: 20px;
-    transition: background-color 500ms;
+    margin-top; 200px;
   }
 </style>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br>
-
 <article>
   <h4>Getting a mining card</h4>
   <p>
@@ -116,6 +117,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <h4>0.76 year</h4> 
     </flex-row>
   </flex-column>
+  
 </article>
     `
   }
