@@ -35,6 +35,7 @@ var guide = customElements.define('guide-page', class GuidePage extends HTMLElem
       * {
         pointer-events: none;
       }
+      
       :host {
         display: flex;
         flex-direction: column;
@@ -64,6 +65,8 @@ var guide = customElements.define('guide-page', class GuidePage extends HTMLElem
     <custom-pages attr-for-selected="data-route">
       <platform-guide data-route="platform"></platform-guide>
       <exchange-guide data-route="exchange"></exchange-guide>
+      <lottery-guide data-route="lottery"></lottery-guide>
+      <chain-guide data-route="chain"></chain-guide>
     </custom-pages>
     `
 

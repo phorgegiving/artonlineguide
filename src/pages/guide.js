@@ -35,6 +35,7 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
       * {
         pointer-events: none;
       }
+      
       :host {
         display: flex;
         flex-direction: column;
@@ -64,6 +65,8 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
     <custom-pages attr-for-selected="data-route">
       <platform-guide data-route="platform"></platform-guide>
       <exchange-guide data-route="exchange"></exchange-guide>
+      <lottery-guide data-route="lottery"></lottery-guide>
+      <chain-guide data-route="chain"></chain-guide>
     </custom-pages>
     `
 

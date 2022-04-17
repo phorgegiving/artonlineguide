@@ -30,10 +30,11 @@ var exchange = customElements.define('exchange-guide', class ExchangeGuide exten
     padding: 1em;
     font-size: 140%;
     max-width: 800px;
-    background: var(--secondary-background-color);
+    background: #222;
     color: #eee;
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     border-radius: 20px;
+    transition: background-color 500ms;
   }
 </style>
 

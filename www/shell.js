@@ -928,12 +928,6 @@ customElements.define('footer-element', class FooterElement extends HTMLElement 
 
       <flex-one></flex-one>
 
-      <flex-row class="footer-right">
-
-        <a href="#"><i class="fa "><img src="img/telegram.png" class="telegram"></i></a>
-        <a href="https://discord.gg/ntAXPmEW2S"><i class="fa "></i>
-        <img src="img/discord.png" class="telegram"></a>
-      </flex-row>
     </flex-row>
     <flex-row>
       made with love <a href="#!/contributers" style="padding-left: 6px;" >by Iondependent and phorge</a>
