@@ -15,6 +15,9 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     width: 100%;
     align-items: center;
     justify-content: center;
+
+    pointer-events: auto !important;
+    overflow-y: auto;
   }
 
   container-element {
@@ -44,7 +47,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
   <p>
     A pop up metamask window should appear. Press confirm, the card you bought is now yours. If it didnt happen, make sure the transaction was successful.
   </p>
-  </article> 
+  </article>
 
 <article>
   <h4>Miner ROI</h4>
@@ -60,7 +63,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>Yearly</h4>
       <flex-one></flex-one>
-      <h4>ROI</h4> 
+      <h4>ROI</h4>
     </flex-row>
   </flex-column>
 </article>

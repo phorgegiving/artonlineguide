@@ -18,6 +18,9 @@ var exchange = customElements.define('exchange-guide', class ExchangeGuide exten
 
     align-items: center;
     justify-content: center;
+
+    pointer-events: auto !important;
+    overflow-y: auto;
   }
 
   a {
@@ -45,7 +48,7 @@ var exchange = customElements.define('exchange-guide', class ExchangeGuide exten
   Buying a GPU from exchange is simular to buying it from the mining app.
   Go to the market and select a preferable miner. Press "buy" button right under preferable miner and confirm the transaction. You should recieve the purchased miner within 5 minutes.
 </p>
- 
+
 <h4>Listing from wallet</h4>
 
 <ul>
