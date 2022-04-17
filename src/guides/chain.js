@@ -1,4 +1,4 @@
-var lottery = customElements.define('lottery-guide', class LotteryGuide extends HTMLElement {
+var chain = customElements.define('chain-guide', class ChainGuide extends HTMLElement {
     constructor() {
       super();
       this.attachShadow({mode: 'open'});
@@ -30,11 +30,11 @@ var lottery = customElements.define('lottery-guide', class LotteryGuide extends 
       padding: 1em;
       font-size: 140%;
       max-width: 800px;
+      min-width: 400px;
       background: var(--secondary-background-color);
       color: #eee;
       box-shadow: rgba(0,0,0,.05) 0 3px 15px;
       border-radius: 20px;
-      min-width: 400px;
     }
   </style>
   
@@ -47,5 +47,4 @@ var lottery = customElements.define('lottery-guide', class LotteryGuide extends 
     }
   });
   
-  export { lottery as default };
-  
+  export { chain as default };

@@ -46,6 +46,5 @@ var lottery = customElements.define('lottery-guide', class LotteryGuide extends 
       `
     }
   });
-  
-  export { lottery as default };
-  
+
+export { lottery as default };

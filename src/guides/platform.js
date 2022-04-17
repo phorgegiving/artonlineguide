@@ -28,14 +28,15 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     padding: 1em;
     font-size: 140%;
     max-width: 800px;
-    background: #222;
+    background: var(--secondary-background-color);
     color: #eee;
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     border-radius: 20px;
     transition: background-color 500ms;
   }
 </style>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 <article>
   <h4>Getting a mining card</h4>
@@ -64,6 +65,55 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <h4>Yearly</h4>
       <flex-one></flex-one>
       <h4>ROI</h4>
+    </flex-row>
+    <flex-row>
+      <h4>ARTX1000</h4>
+      <flex-one></flex-one>
+      <h4>9600 ART</h4>
+      <flex-one></flex-one>
+      <h4>9600 ART</h4>
+      <flex-one></flex-one>
+      <h4>1 year</h4> 
+    </flex-row>
+
+    <flex-row>
+      <h4>ARTX2000</h4>
+      <flex-one></flex-one>
+      <h4>50500 ART</h4>
+      <flex-one></flex-one>
+      <h4>37661 ART</h4>
+      <flex-one></flex-one>
+      <h4>1.3 years</h4> 
+    </flex-row>
+
+    <flex-row>
+      <h4>Genesis</h4>
+      <flex-one></flex-one>
+      <h4>153000 ART</h4>
+      <flex-one></flex-one>
+      <h4>229572 ART</h4>
+      <flex-one></flex-one>
+      <h4>0.67 year</h4> 
+    </flex-row>
+
+    <flex-row>
+      <h4>Module</h4>
+      <flex-one></flex-one>
+      <h4>2300 ART</h4>
+      <flex-one></flex-one>
+      <h4>2300 ART</h4>
+      <flex-one></flex-one>
+      <h4>1 year</h4> 
+    </flex-row>
+
+    <flex-row>
+      <h4>Xtreme</h4>
+      <flex-one></flex-one>
+      <h4>110000 ART</h4>
+      <flex-one></flex-one>
+      <h4>145556 ART</h4>
+      <flex-one></flex-one>
+      <h4>0.76 year</h4> 
     </flex-row>
   </flex-column>
 </article>

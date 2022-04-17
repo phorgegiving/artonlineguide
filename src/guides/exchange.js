@@ -15,14 +15,11 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
     display: flex;
     height: 100%;
     width: 100%;
-
-    align-items: center;
-    justify-content: center;
-
     pointer-events: auto !important;
     overflow-y: auto;
+    align-items: center;
+    justify-content: center;
   }
-
   a {
     pointer-events: auto;
     color: coral;
@@ -33,7 +30,7 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
     padding: 1em;
     font-size: 140%;
     max-width: 800px;
-    background: #222;
+    background: var(--secondary-background-color);
     color: #eee;
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     border-radius: 20px;
@@ -48,7 +45,7 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
   Buying a GPU from exchange is simular to buying it from the mining app.
   Go to the market and select a preferable miner. Press "buy" button right under preferable miner and confirm the transaction. You should recieve the purchased miner within 5 minutes.
 </p>
-
+ 
 <h4>Listing from wallet</h4>
 
 <ul>
@@ -67,3 +64,4 @@ in "currency to recieve" field if you would like to recieve artonline. Enter 0x0
     `
   }
 })
+ 

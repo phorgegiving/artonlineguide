@@ -1,4 +1,4 @@
-var exchange = customElements.define('lottery-guide', class LotteryGuide extends HTMLElement {
+var lottery = customElements.define('lottery-guide', class LotteryGuide extends HTMLElement {
     constructor() {
       super();
       this.attachShadow({mode: 'open'});
@@ -34,12 +34,13 @@ var exchange = customElements.define('lottery-guide', class LotteryGuide extends
       color: #eee;
       box-shadow: rgba(0,0,0,.05) 0 3px 15px;
       border-radius: 20px;
+      min-width: 400px;
     }
   </style>
   
   
   <article>
-  <h4>Coing soon...</h4>
+  <h4>Coming soon...</h4>
   </article>
   
       `

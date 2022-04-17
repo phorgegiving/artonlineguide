@@ -22,11 +22,11 @@ var links = customElements.define('links-page', class LinksPage extends HTMLElem
         padding: 1em;
         font-size: 140%;
         max-width: 800px;
-        background: #222;
+        background: var(--secondary-background-color);
         color: #eee;
         box-shadow: rgba(0,0,0,.05) 0 3px 15px;
         border-radius: 20px;
-        transition: background-color 500ms;
+        min-width: 400px;
       }
     </style>
     <article>
