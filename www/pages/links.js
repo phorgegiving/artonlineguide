@@ -1,8 +1,8 @@
-var links = customElements.define('links-page', class LinksPage extends HTMLElement {
+export default customElements.define('links-page', class LinksPage extends HTMLElement {
   constructor() {
-    super();
-    this.attachShadow({mode: 'open'});
-    this.shadowRoot.innerHTML = this.template;
+    super()
+    this.attachShadow({mode: 'open'})
+    this.shadowRoot.innerHTML = this.template
   }
 
   get template() {
@@ -42,5 +42,3 @@ var links = customElements.define('links-page', class LinksPage extends HTMLElem
 
   }
 });
-
-export { links as default };

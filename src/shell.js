@@ -64,7 +64,7 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
       :host {
         display: flex;
         flex-direction: column;
-        background: #111;
+        background: var(--main-background-color);
         color: var(--main-color);
         position: absolute;
         top: 0;

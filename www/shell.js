@@ -269,7 +269,7 @@ class CustomPages extends SelectMixin(HTMLElement) {
           right: 0;
           bottom: 0;
           transition: transform ease-out 160ms, opacity ease-out 60ms;
-          /*transform: scale(0.5);*/
+          transform: scale(0.1);
           transform-origin: left;
         }
         ::slotted(.animate-up) {
@@ -1030,7 +1030,7 @@ var shell = customElements.define('guide-shell', class GuideShell extends HTMLEl
       :host {
         display: flex;
         flex-direction: column;
-        background: #111;
+        background: var(--main-background-color);
         color: var(--main-color);
         position: absolute;
         top: 0;
