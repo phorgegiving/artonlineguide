@@ -27,9 +27,6 @@ export default customElements.define('header-element', class HeaderElement exten
     </style>
     <flex-one></flex-one>
     <a href="#!/home">home</a>
-    <a href="#!/guide">guide</a>
-    <a href="#!/links">links</a>
-    <a href="#!/info">info</a>
     `
   }
 })

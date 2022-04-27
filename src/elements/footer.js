@@ -30,7 +30,7 @@ export default customElements.define('footer-element', class FooterElement exten
       <flex-row>
 
         <p>Phorgegiving &copy; 2022. All rights reserved.</p>
-        <p style="padding-left: 8px;">beta 1.2.2 this website may have some known bugs.</p>
+        <p style="padding-left: 8px;">beta 1.3.4 this website may have some known bugs.</p>
       </flex-row>
 
       <flex-one></flex-one>
@@ -38,6 +38,7 @@ export default customElements.define('footer-element', class FooterElement exten
     </flex-row>
     <flex-row>
       made with love <a href="#!/contributers" style="padding-left: 6px;" >by Iondependent and phorge</a>
+      <contributers-page data-route="contributers"></contributers-page>
     </flex-row>
     `
   }

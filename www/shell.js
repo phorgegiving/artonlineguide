@@ -269,7 +269,7 @@ class CustomPages extends SelectMixin(HTMLElement) {
           right: 0;
           bottom: 0;
           transition: transform ease-out 160ms, opacity ease-out 60ms;
-          transform: scale(0.1);
+          /*transform: scale(0.5);*/
           transform-origin: left;
         }
         ::slotted(.animate-up) {
@@ -923,7 +923,7 @@ customElements.define('footer-element', class FooterElement extends HTMLElement 
       <flex-row>
 
         <p>Phorgegiving &copy; 2022. All rights reserved.</p>
-        <p style="padding-left: 8px;">beta 1.2.2 this website may have some known bugs.</p>
+        <p style="padding-left: 8px;">beta 1.3.4 this website may have some known bugs.</p>
       </flex-row>
 
       <flex-one></flex-one>
@@ -931,6 +931,7 @@ customElements.define('footer-element', class FooterElement extends HTMLElement 
     </flex-row>
     <flex-row>
       made with love <a href="#!/contributers" style="padding-left: 6px;" >by Iondependent and phorge</a>
+      <contributers-page data-route="contributers"></contributers-page>
     </flex-row>
     `
   }
@@ -965,9 +966,6 @@ customElements.define('header-element', class HeaderElement extends HTMLElement 
     </style>
     <flex-one></flex-one>
     <a href="#!/home">home</a>
-    <a href="#!/guide">guide</a>
-    <a href="#!/links">links</a>
-    <a href="#!/info">info</a>
     `
   }
 });

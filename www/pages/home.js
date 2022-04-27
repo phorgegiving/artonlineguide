@@ -22,11 +22,13 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
         overflow-y: auto;
       }
       .card-block {
-        margin: 0.5% 0% 0% 0.5%;
+        margin: 5% 0% 0% 5%;
         display: inline-block;
-        min-width: 23vh;
-        height: 23vh;
+        width: 30vh;
+        height: 30vh;
+        float: left;
         background: var(--secondary-background-color);
+        border-radius: 20px;
     }
     p{
         text-transform: uppercase;
@@ -38,6 +40,9 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
       color: white;
       text-align: center;
   }
+  .hidact{
+    background-color: var(--main-background-color);
+  }
     .content {  
       color: #ffffff; 
       background-color: var(--main-background-color);
@@ -46,16 +51,18 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
 
     <div class="content">
     <h2>Feel confused?</h2>
-        <p>We can help!</p>
         <div class="cards">
-            <a href="" target="_blank">
-                <div class="card-block">Guide</div></a>
+            <a href="#!/guide">
+                <div class="card-block"><p>Guide</p></div></a>
             
-            <a href="" target="_blank">
-                <div class="card-block">Links</div></a>
+            <a href="#!/links">
+                <div class="card-block"><p>Links</p></div></a>
 
-            <a href="" target="_blank">
-                <div class="card-block">Info</div></a>
+            <a href="#!/info">
+                <div class="card-block"><p>Info</p></div></a>
+
+               
+                <div class="card-block  hidact"></div
         </div>
     </div>
     `

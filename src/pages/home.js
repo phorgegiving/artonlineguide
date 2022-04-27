@@ -22,10 +22,11 @@ export default customElements.define('home-page', class HomePage extends HTMLEle
         overflow-y: auto;
       }
       .card-block {
-        margin: 0.5% 0% 0% 0.5%;
+        margin: 1% 0% 0% 1%;
         display: inline-block;
-        min-width: 23vh;
-        height: 23vh;
+        min-width: 30vh;
+        height: 30vh;
+        float: left;
         background: var(--secondary-background-color);
     }
     p{
@@ -46,16 +47,16 @@ export default customElements.define('home-page', class HomePage extends HTMLEle
 
     <div class="content">
     <h2>Feel confused?</h2>
-        <p>We can help!</p>
         <div class="cards">
-            <a href="" target="_blank">
-                <div class="card-block"></div></a>
+            <a href="#!/guide">
+                <div class="card-block"><p>Guide</p></div></a>
             
-            <a href="" target="_blank">
-                <div class="card-block"></div></a>
+            <a href="#!/links">
+                <div class="card-block"><p>Links</p></div></a>
 
-            <a href="" target="_blank">
-                <div class="card-block"></div></a>
+            <a href="#!/info">
+                <div class="card-block"><p>Info</p></div></a>
+                
         </div>
     </div>
     `
