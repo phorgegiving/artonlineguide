@@ -8,6 +8,17 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
   get template() {
     return `
     <style>
+    ::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+}
     *{
       pointer-events: auto;
     }
@@ -27,8 +38,17 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
         width: 30vh;
         height: 30vh;
         float: left;
-        background: var(--secondary-background-color);
         border-radius: 20px;
+        transition: all 0.2s ease-out;
+    }
+    .grad:hover{
+      width: 30.25vh;
+      height: 30.25vh;
+      background: var(--secondary-background-color-hover);
+      transition: all 0.2s ease-out;
+    }
+    .grad{
+      background: var(--secondary-background-color);
     }
     p{
         text-transform: uppercase;
@@ -53,16 +73,16 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
     <h2>Feel confused?</h2>
         <div class="cards">
             <a href="#!/guide">
-                <div class="card-block"><p>Guide</p></div></a>
+                <div class="card-block grad"><p>Guide</p></div></a>
             
             <a href="#!/links">
-                <div class="card-block"><p>Links</p></div></a>
+                <div class="card-block grad"><p>Links</p></div></a>
 
             <a href="#!/info">
-                <div class="card-block"><p>Info</p></div></a>
+                <div class="card-block grad"><p>Info</p></div></a>
 
                
-                <div class="card-block  hidact"></div
+                <div class="card-block hidact"></div
         </div>
     </div>
     `

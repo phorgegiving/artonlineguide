@@ -36,6 +36,19 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
     border-radius: 20px;
     transition: background-color 500ms;
   }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+}
+ 
 </style>
 
 
