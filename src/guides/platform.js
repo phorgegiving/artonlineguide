@@ -37,8 +37,8 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     margin-top; 200px;
   }
 </style>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <article>
   <h4>Getting a mining card</h4>
   <p>
@@ -119,6 +119,21 @@ export default customElements.define('platform-guide', class PlatformGuide exten
   </flex-column>
   
 </article>
+
+<article>
+<h4>Listing mining card from wallet</h4>
+<p>Go to
+mining platform
+and go to wallet. Select a pool of mining Card you want to list on exchange.
+ Select the mining card you want to list.
+  Press on the triangle next to your mining card id. Enter
+<h5>0x535e67270f4feb15bffbfe86fee308b81799a7a5</h5>
+in "currency to recieve" field if you would like to recieve artonline.
+ Enter 0x0 if you would like to recieve BNB.
+  Enter the price of your miner (it can be any price) in "price" field.
+   Press "list" button and approve the transaction.
+ Your miner will get listed on exchange within 10 minutes.</p>
+ </article>
     `
   }
 })

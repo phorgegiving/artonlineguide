@@ -56,7 +56,7 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
       * {
     pointer-events: auto;
     :-webkit-scrollbar-thumb {
-      background-color: blue;    
+      background-color: red;    
       border-radius: 20px;       
       border: 3px solid orange;  
     }

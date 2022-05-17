@@ -3,5 +3,5 @@ export default {
   'secondary-background-color': 'linear-gradient(45deg, #222, #251B2D)',
   'secondary-background-color-hover': 'linear-gradient(45deg, #333, #261B2D)',
   'main-color': '#eee',
-  'accent-color': '#d70d96'
+  'accent-color': 'coral'
 }

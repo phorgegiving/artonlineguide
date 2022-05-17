@@ -268,8 +268,8 @@ class CustomPages extends SelectMixin(HTMLElement) {
           left: 0;
           right: 0;
           bottom: 0;
-          transition: transform ease-out 160ms, opacity ease-out 60ms;
-          /*transform: scale(0.5);*/
+          transition: transform ease-out 380ms, opacity ease-out 100ms;
+          transform: scale(0.5);
           transform-origin: left;
         }
         ::slotted(.animate-up) {
@@ -282,7 +282,7 @@ class CustomPages extends SelectMixin(HTMLElement) {
           opacity: 1;
           pointer-events: auto;
           transform: translateY(0);
-          transition: transform ease-in 160ms, opacity ease-in 320ms;
+          transition: transform ease-in 260ms, opacity ease-in 220ms;
           max-height: 100%;
           max-width: 100%;
         }
@@ -679,19 +679,23 @@ class CustomPages extends SelectMixin(HTMLElement) {
       :host {
         position: relative;
         display: inline-flex;
-        width: 148px;
-        height: 48px;
+        width: 20vh;
+        height: 15px;
         align-items: center;
         justify-content: center;
         padding: 8px 12px;
         box-sizing: border-box;
         cursor: pointer;
         
-        --tab-underline-color:  #00B8D4;
+        --tab-underline-color:  coral;
+        --tab-color: #FFC2AD;
       }
 
       :host(.custom-selected) {
-        border-bottom: 2px solid var(--tab-underline-color);
+        border-bottom: 1px solid var(--tab-underline-color);
+        border-radius: 8px;
+        transition: all 0.2s ease-out;
+        color: var(--tab-color);
       }
       
       ::slotted(*) {
@@ -1020,7 +1024,7 @@ var shell = customElements.define('guide-shell', class GuideShell extends HTMLEl
       * {
     pointer-events: auto;
     :-webkit-scrollbar-thumb {
-      background-color: blue;    
+      background-color: red;    
       border-radius: 20px;       
       border: 3px solid orange;  
     }

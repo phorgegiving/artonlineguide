@@ -46,6 +46,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
       height: 30.25vh;
       background: var(--secondary-background-color-hover);
       transition: all 0.2s ease-out;
+      font-size: large;
     }
     .grad{
       background: var(--secondary-background-color);
@@ -82,7 +83,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
                 <div class="card-block grad"><p>Info</p></div></a>
 
                
-                <div class="card-block hidact"></div
+                <div class="card-block hidact"></div>
         </div>
     </div>
     `
