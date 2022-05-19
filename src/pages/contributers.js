@@ -13,7 +13,8 @@ export default customElements.define('contributers-page', class ContributersPage
         flex-direction: column;
       }
     </style>
-    <h3>coming soon...</h3>
+    <p>Made with love by: Phorge, Iondependent, BHero(not yet)...
+    
     `
 
   }

@@ -72,6 +72,8 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
       custom-tab {
         pointer-events: auto;
       }
+
+      
     </style>
 
     <header-element></header-element>
