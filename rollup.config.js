@@ -11,8 +11,8 @@ export default [{
     format: 'es'
   }
 }, {
-  input: ['src/guides/exchange.js', 'src/guides/platform.js',
-  'src/guides/lottery.js', 'src/guides/chain.js'],
+  input: ['src/pages/guide.js', 'src/pages/home.js',
+  'src/pages/contributers.js', 'src/pages/info.js', 'src/pages/links.js'],
   output: {
     dir: './www/pages',
     format: 'es'
