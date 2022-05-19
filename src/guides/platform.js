@@ -7,10 +7,11 @@ export default customElements.define('platform-guide', class PlatformGuide exten
 
   get template() {
     return `
-    *{
-      pointer-events: auto;
-    }
 <style>
+
+* {
+  pointer-events: auto;
+}
   :host {
     flex-direction: column;
     display: flex;
@@ -19,8 +20,8 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     align-items: center;
     justify-content: center;
 
-    pointer-events: auto !important;
     overflow-y: auto;
+    pointer-events: auto !important;
   }
   container-element {
     margin-bottom: 24px;
@@ -36,6 +37,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     border-radius: 20px;
     margin-top; 200px;
   }
+
 </style>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -74,7 +76,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>9600 ART</h4>
       <flex-one></flex-one>
-      <h4>1 year</h4> 
+      <h4>1 year</h4>
     </flex-row>
 
     <flex-row>
@@ -84,7 +86,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>37661 ART</h4>
       <flex-one></flex-one>
-      <h4>1.3 years</h4> 
+      <h4>1.3 years</h4>
     </flex-row>
 
     <flex-row>
@@ -94,7 +96,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>229572 ART</h4>
       <flex-one></flex-one>
-      <h4>0.67 year</h4> 
+      <h4>0.67 year</h4>
     </flex-row>
 
     <flex-row>
@@ -104,7 +106,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>2300 ART</h4>
       <flex-one></flex-one>
-      <h4>1 year</h4> 
+      <h4>1 year</h4>
     </flex-row>
 
     <flex-row>
@@ -114,10 +116,10 @@ export default customElements.define('platform-guide', class PlatformGuide exten
       <flex-one></flex-one>
       <h4>145556 ART</h4>
       <flex-one></flex-one>
-      <h4>0.76 year</h4> 
+      <h4>0.76 year</h4>
     </flex-row>
   </flex-column>
-  
+
 </article>
 
 <article>

@@ -8,25 +8,14 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
   get template() {
     return `
     <style>
-    ::-webkit-scrollbar {
-    width: 12px;
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
-}
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
-    border-radius: 10px;
-}
-    *{
+    * {
       pointer-events: auto;
     }
       :host {
         display: flex;
         height: 100%;
         width: 100%;
-    
+
         align-items: center;
         justify-content: center;
         pointer-events: auto !important;
@@ -64,8 +53,8 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
   .hidact{
     background-color: var(--main-background-color);
   }
-    .content {  
-      color: #ffffff; 
+    .content {
+      color: #ffffff;
       background-color: var(--main-background-color);
   }
     </style>
@@ -75,14 +64,14 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
         <div class="cards">
             <a href="#!/guide">
                 <div class="card-block grad"><p>Guide</p></div></a>
-            
+
             <a href="#!/links">
                 <div class="card-block grad"><p>Links</p></div></a>
 
             <a href="#!/info">
                 <div class="card-block grad"><p>Info</p></div></a>
 
-               
+
                 <div class="card-block hidact"></div>
         </div>
     </div>

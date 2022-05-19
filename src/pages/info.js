@@ -8,18 +8,18 @@ export default customElements.define('info-page', class InfoPage extends HTMLEle
   get template() {
     return `
     <style>
-    *{
+    * {
       pointer-events: auto;
     }
       :host {
         display: flex;
         height: 100%;
         width: 100%;
-    
+
         align-items: center;
         justify-content: center;
       }
-    
+
       article {
         margin: 5em auto 0;
         padding: 1em;
@@ -32,8 +32,8 @@ export default customElements.define('info-page', class InfoPage extends HTMLEle
         border-radius: 20px;
       }
     </style>
-    
-    
+
+
     <article>
     <h4>Coming soon...</h4>
     </article>
