@@ -1,3 +1,5 @@
+import {scrollbar} from './../shared-styles/shared'
+
 export default customElements.define('guide-page', class GuidePage extends HTMLElement {
   constructor() {
     super()
@@ -35,10 +37,12 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
       * {
         pointer-events: none;
       }
-      
+
       :host {
         display: flex;
         flex-direction: column;
+        overflow: hidden;
+        height: 100%;
       }
 
       custom-tab {
@@ -50,6 +54,8 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
         align-items: flex-end;
         justify-content: center;
       }
+
+      ${scrollbar}
     </style>
     <flex-row>
       <custom-tabs attr-for-selected="data-route">
