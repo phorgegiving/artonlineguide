@@ -8,18 +8,17 @@ export default customElements.define('platform-guide', class PlatformGuide exten
   get template() {
     return `
 <style>
+  * {
+    pointer-events: none;
+  }
 
-* {
-  pointer-events: auto;
-}
   :host {
     flex-direction: column;
     display: flex;
     height: 100%;
     width: 100%;
     align-items: center;
-    justify-content: center;
-
+    box-sizing: border-box;
     overflow-y: auto;
     pointer-events: auto !important;
   }
@@ -39,8 +38,6 @@ export default customElements.define('platform-guide', class PlatformGuide exten
   }
 
 </style>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <article>
   <h4>Getting a mining card</h4>
   <p>
