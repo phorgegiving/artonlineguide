@@ -1,3 +1,11 @@
+import { execSync } from 'child_process'
+
+try {
+  execSync('rm -rf www/**/*.js')
+} catch (e) {
+
+}
+
 export default [{
   input: ['src/shell.js'],
   output: {
