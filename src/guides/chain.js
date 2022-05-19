@@ -4,22 +4,22 @@ var chain = customElements.define('chain-guide', class ChainGuide extends HTMLEl
       this.attachShadow({mode: 'open'});
       this.shadowRoot.innerHTML = this.template;
     }
-  
+
     get template() {
       return `
   <style>
-  *{
+  * {
     pointer-events: auto;
   }
     :host {
       display: flex;
       height: 100%;
       width: 100%;
-  
+
       align-items: center;
       justify-content: center;
     }
-  
+
     a {
       pointer-events: auto;
       color: coral;
@@ -37,14 +37,14 @@ var chain = customElements.define('chain-guide', class ChainGuide extends HTMLEl
       border-radius: 20px;
     }
   </style>
-  
-  
+
+
   <article>
   <h4>Coming soon...</h4>
   </article>
-  
+
       `
     }
   });
-  
+
   export { chain as default };
