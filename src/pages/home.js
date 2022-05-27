@@ -63,13 +63,13 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
     <h2>Feel confused?</h2>
         <div class="cards">
             <a href="#!/guide">
-                <div class="card-block grad"><p>Guide</p></div></a>
+                <div class="card-block grad guide"><p>Guide</p></div></a>
 
             <a href="#!/links">
-                <div class="card-block grad"><p>Links</p></div></a>
+                <div class="card-block grad links"><p>Links</p></div></a>
 
             <a href="#!/info">
-                <div class="card-block grad"><p>Info</p></div></a>
+                <div class="card-block grad info"><p>Info</p></div></a>
 
 
                 <div class="card-block hidact"></div>

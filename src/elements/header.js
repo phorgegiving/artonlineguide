@@ -24,9 +24,12 @@ export default customElements.define('header-element', class HeaderElement exten
         padding: 6px 12px;
         pointer-events: auto;
       }
+
+      
     </style>
     <flex-one></flex-one>
     <a href="#!/home">home</a>
+    <a href="#!/settings">settings</a>
     `
   }
 })

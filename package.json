@@ -30,6 +30,7 @@
     "auto-updater": "^1.0.2",
     "custom-pages": "^0.12.1",
     "custom-tabs": "^0.13.1",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "little-pubsub": "^1.2.0"
   }
 }

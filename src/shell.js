@@ -82,6 +82,7 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
       <guide-page data-route="guide"></guide-page>
       <info-page data-route="info"></info-page>
       <links-page data-route="links"></links-page>
+      <settings-page data-route="settings"></settings-page>
     </custom-pages>
     <footer-element></footer-element>
     `

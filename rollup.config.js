@@ -20,7 +20,7 @@ export default [{
   }
 }, {
   input: ['src/pages/guide.js', 'src/pages/home.js',
-  'src/pages/contributers.js', 'src/pages/info.js', 'src/pages/links.js'],
+  'src/pages/contributers.js', 'src/pages/info.js', 'src/pages/links.js', 'src/pages/settings.js'],
   output: {
     dir: './www/pages',
     format: 'es'
