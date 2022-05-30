@@ -26,9 +26,7 @@ var settings = customElements.define('settings-page', class SettingsPage extends
       </style>
   
       coming soon <br> 
-      (В моих глазах горит квазар <br> 
-        Иду вперед, ни шагу назад <br> 
-        Кидаю step, бегу на старт...)
+
       `
   
     }

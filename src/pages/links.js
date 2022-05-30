@@ -34,6 +34,7 @@ export default customElements.define('links-page', class LinksPage extends HTMLE
   <li><a href="https://app.artonline.site">Mining platform</a></li>
   <li><a href="https://exchange.artonline.site/#!/market">Exchange</a></li>
   <li><a href="https://artonline.site/">Website</a></li>
+  <li><a href="https://stats.artonline.site/">Statistics</a></li>
   <br>
   <li><a href="https://github.com/phorgegiving/artonlineguide/issues">Found an issue?</a></li>
 </ul>

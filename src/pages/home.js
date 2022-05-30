@@ -29,6 +29,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
         float: left;
         border-radius: 20px;
         transition: all 0.2s ease-out;
+        text-align: center;
     }
     .grad:hover{
       width: 30.25vh;
@@ -63,13 +64,19 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
     <h2>Feel confused?</h2>
         <div class="cards">
             <a href="#!/guide">
-                <div class="card-block grad guide"><p>Guide</p></div></a>
+                <div class="card-block grad"><p>Guide</p>
+                <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt="">
+                </div></a>
 
             <a href="#!/links">
-                <div class="card-block grad links"><p>Links</p></div></a>
+                <div class="card-block grad"><p>Links</p>
+                <img src="https://www.shareicon.net/data/2016/01/15/703460_secure_512x512.png"; width="60%";  alt="">
+                </div></a>
 
             <a href="#!/info">
-                <div class="card-block grad info"><p>Info</p></div></a>
+                <div class="card-block grad"><p>Info</p>
+                <img src="https://cdn.pixabay.com/photo/2012/04/24/23/56/information-41225_1280.png"; width="60%";  alt="">
+                </div></a>
 
 
                 <div class="card-block hidact"></div>
