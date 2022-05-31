@@ -15,6 +15,7 @@ export default customElements.define('footer-element', class FooterElement exten
         font-size: 14px;
         padding: 8px 16px;
         box-sizing: border-box;
+        background: var(--wave-color);
       }
 
       .footer-right {
@@ -37,7 +38,7 @@ export default customElements.define('footer-element', class FooterElement exten
 
     </flex-row>
     <flex-row>
-    <p><a href="#!/contributers" style="padding-left: 6px;" >Artonine</a> &copy; 2022. All rights reserved.</p>
+    <p><a href="#!/contributers" style="padding-left: 6px;" >Artonline</a> &copy; 2022. All rights reserved.</p>
     <p style="padding-left: 8px;">beta 1.3.4 this website may have some known bugs.</p>
     <flex-one></flex-one>
       <contributers-page data-route="contributers"></contributers-page>

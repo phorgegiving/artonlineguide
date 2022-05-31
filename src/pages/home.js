@@ -1,3 +1,6 @@
+import {scrollbar} from './../shared-styles/shared'
+
+
 var home = customElements.define('home-page', class HomePage extends HTMLElement {
   constructor() {
     super();
@@ -52,17 +55,23 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
       text-align: center;
   }
   .hidact{
-    background-color: var(--main-background-color);
+    opacity="0";
+    width="5vh";
   }
     .content {
       color: #ffffff;
       background-color: var(--main-background-color);
+        display: flex;
+        height: 100%;
+        width: 100%;
+
   }
+  ${scrollbar}
     </style>
 
     <div class="content">
-    <h2>Feel confused?</h2>
-        <div class="cards">
+        <div>
+        <h2>Feel confused?</h2>
             <a href="#!/guide">
                 <div class="card-block grad"><p>Guide</p>
                 <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt="">
@@ -77,9 +86,9 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
                 <div class="card-block grad"><p>Info</p>
                 <img src="https://cdn.pixabay.com/photo/2012/04/24/23/56/information-41225_1280.png"; width="60%";  alt="">
                 </div></a>
-
-
-                <div class="card-block hidact"></div>
+                <svg viewBox="0 0 1440 276" width= "151%"; max-width= "100%"; >
+                <path fill= "var(--wave-color)" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,165.3C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,234.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+</svg>
         </div>
     </div>
     `
