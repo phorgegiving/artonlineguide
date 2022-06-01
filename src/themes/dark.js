@@ -1,8 +1,9 @@
 export default {
   'main-background-color': '#111',
-  'secondary-background-color': 'linear-gradient(45deg, #222, #251B2D)',
-  'secondary-background-color-hover': 'linear-gradient(45deg, #333, #261B2D)',
-  'wave-color': '#251B2D',
+  'secondary-background-color': 'linear-gradient(45deg, #222, #7347AA)',
+  'secondary-background-color-hover': 'linear-gradient(45deg, #333, #A365F1)',
+  'wave-color': '#4A1193',
   'main-color': '#eee',
   'accent-color': 'coral'
 }
+// #8033E2
