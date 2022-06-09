@@ -13,7 +13,7 @@ export default customElements.define('contributers-page', class ContributersPage
         flex-direction: column;
       }
     </style>
-    <p>Made with love by: Phorge, Iondependent, BHero(not yet)...
+    <p>Made with love by: Phorge, Iondependent, BHero...  
     
     `
 

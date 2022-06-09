@@ -10,6 +10,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
     <style>
     * {
       pointer-events: auto;
+      text-decoration: none;
     }
       :host {
         display: flex;
@@ -24,19 +25,19 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
         background-size: cover;
       }
       .card-block {
-        margin: 5% 0% 0% 5%;
+        margin: 0% 0% 8px 0%;
         display: inline-block;
-        width: 30vh;
-        height: 30vh;
+        width: 20vh;
+        height: 20vh;
         float: left;
-        border-radius: 10% 30% 50% 30%;
+        border-radius: 48px;
           box-sizing: border-box;
           pointer-events: auto;
         transition: all 0.2s ease-out;
         text-align: center;
          background: var(--secondary-background-color);
-         margin-left: 15px;
-         margin-right: 15px;
+         margin-left: 25px;
+         margin-right: 25px;
     }
     .card-block:hover{
       background: var(--secondary-background-color-hover);
@@ -45,13 +46,22 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
     }
     p{
         text-transform: uppercase;
+        font-size: 1.3em;
         color: white;
         text-align: center;
+        margin: 15px;
     }
+    img {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+      margin-top: 20%;
+      opacity; 0.5;
+      }
     h2{
       text-transform: uppercase;
       color: white;
       text-align: center;
+      margin-bottom: 30px
   }
     .content {
       color: #ffffff;
@@ -62,7 +72,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
      justify-content: center;
   }
   .svg{
-    margin-top: 7%;
+    margin-top: 10.1%;
   }
     </style>
   
@@ -70,19 +80,19 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
     <h2>Feel confused?</h2>
         <div class="cards">
             <a href="#!/guide">
-                <div class="card-block"><p>Guide</p>
+                <div class="card-block">
                 <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt="">
-                </div></a>
+                </div><p>Guide</p></a>
 
             <a href="#!/links">
-                <div class="card-block"><p>Links</p>
+                <div class="card-block">
                 <img src="https://www.shareicon.net/data/2016/01/15/703460_secure_512x512.png"; width="60%";  alt="">
-                </div></a>
+                </div><p>Links</p></a>
 
             <a href="#!/info">
-                <div class="card-block"><p>Info</p>
+                <div class="card-block">
                 <img src="https://cdn.pixabay.com/photo/2012/04/24/23/56/information-41225_1280.png"; width="60%";  alt="">
-                </div></a>
+                </div><p>Info</p></a>
                 </div>
                 <div class="svg"> 
                 <svg height="179" width="1440">
