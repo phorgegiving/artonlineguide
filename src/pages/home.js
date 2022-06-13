@@ -72,16 +72,16 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
      justify-content: center;
   }
   .svg{
-    margin-top: 10.1%;
+    margin-top: 12.5%;
   }
     </style>
   
     <div class="content">
     <h2>Feel confused?</h2>
         <div class="cards">
-            <a href="#!/guide">
+            <a href="#!/guide"> 
                 <div class="card-block">
-                <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt="">
+                <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt="" onClick="chgfootcol">
                 </div><p>Guide</p></a>
 
             <a href="#!/links">

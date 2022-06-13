@@ -43,6 +43,7 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
         flex-direction: column;
         overflow: hidden;
         height: 100%;
+        font-family: 'Noto Sans', sans-serif;
       }
 
       custom-tab {

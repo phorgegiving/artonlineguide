@@ -3,7 +3,6 @@ import './../node_modules/custom-tabs/custom-tabs.js'
 import './../node_modules/custom-tabs/custom-tab.js'
 import './../node_modules/@vandeurenglenn/flex-elements/src/flex-elements.js'
 import './elements/container.js'
-import './elements/footer.js'
 import './elements/header.js'
 
 export default customElements.define('guide-shell', class GuideShell extends HTMLElement {
@@ -68,6 +67,12 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
         right: 0;
         --custom-tab-color: var(--main-color);
       }
+      :host(.custom-selected) {
+        border-bottom: 1px solid var(--tab-underline-color);
+        border-radius: 8px;
+        transition: all 0.4s ease-out;
+        color: var(--tab-color);
+      }
 
       custom-tab {
         pointer-events: auto;
@@ -84,7 +89,6 @@ export default customElements.define('guide-shell', class GuideShell extends HTM
       <links-page data-route="links"></links-page>
       <settings-page data-route="settings"></settings-page>
     </custom-pages>
-    <footer-element></footer-element>
     `
   }
 })
