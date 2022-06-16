@@ -14,7 +14,7 @@ export default customElements.define('links-page', class LinksPage extends HTMLE
       }
       a {
         pointer-events: auto;
-        color: coral;
+        color: var(--main-color);
         text-decoration: none;
       }
       article {

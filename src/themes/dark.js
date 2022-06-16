@@ -4,6 +4,6 @@ export default {
   'secondary-background-color-hover': 'linear-gradient(45deg, #333, #A365F1)',
   'wave-color': '#4A1193',
   'main-color': '#eee',
-  'accent-color': 'coral'
+  'accent-color': '#4A1193'
 }
 // #8033E2
