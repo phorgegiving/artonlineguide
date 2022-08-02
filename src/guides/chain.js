@@ -39,9 +39,7 @@ var chain = customElements.define('chain-guide', class ChainGuide extends HTMLEl
   </style>
 
 
-  <article>
-  <h4>Coming soon...</h4>
-  </article>
+  <h1>coming soon</h1>
 
       `
     }

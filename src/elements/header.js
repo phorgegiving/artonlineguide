@@ -11,10 +11,11 @@ export default customElements.define('header-element', class HeaderElement exten
       :host {
         display: flex;
         flex-direction: row;
+        z-index: 288;
         width: 100%;
         font-size: 16px;
-        padding: 8px 16px;
         box-sizing: border-box;
+        height: 5vh;
       }
 
       a {

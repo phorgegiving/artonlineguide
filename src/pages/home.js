@@ -94,7 +94,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
         <div class="cards">
             <a href="#!/guide"> 
                 <div class="card-block">
-                <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt="" onClick="chgfootcol">
+                <img src="https://i.ibb.co/CV710SL/guide-icon.png" ; width="60%";  alt=""">
                 </div><p>Guide</p></a>
 
             <a href="#!/links">

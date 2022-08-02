@@ -34,9 +34,7 @@ export default customElements.define('info-page', class InfoPage extends HTMLEle
     </style>
 
 
-    <article>
-    <h4>Coming soon...</h4>
-    </article>
+    <h1>coming soon</h1>
     `
 
   }

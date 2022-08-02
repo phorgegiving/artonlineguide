@@ -6,7 +6,7 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
     this.attachShadow({mode: 'open'})
     this.shadowRoot.innerHTML = this.template
     this.onselect = this.onselect.bind(this)
-    this.onselect({detail: 'platform'})
+    this.onselect({detail: 'ghome'})
   }
 
   connectedCallback() {
@@ -60,6 +60,7 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
     </style>
     <flex-row>
       <custom-tabs attr-for-selected="data-route">
+      <custom-tab data-route="ghome" class="ghome"><span>get started</span></custom-tab>
         <custom-tab data-route="platform"><span>platform</span></custom-tab>
         <custom-tab data-route="exchange"><span>exchange</span></custom-tab>
         <custom-tab data-route="lottery"><span>lottery</span></custom-tab>
@@ -68,6 +69,7 @@ export default customElements.define('guide-page', class GuidePage extends HTMLE
     </flex-row>
 
     <custom-pages attr-for-selected="data-route">
+      <ghome-guide data-route="ghome"></ghome-guide>
       <platform-guide data-route="platform"></platform-guide>
       <exchange-guide data-route="exchange"></exchange-guide>
       <lottery-guide data-route="lottery"></lottery-guide>

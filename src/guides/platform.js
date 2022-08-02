@@ -30,14 +30,12 @@ export default customElements.define('platform-guide', class PlatformGuide exten
     padding: 1em;
     font-size: 140%;
     max-width: 800px;
-    background: var(--secondary-background-color);
-    color: #eee;
-    box-shadow: rgba(0,0,0,.05) 0 3px 15px;
-    border-radius: 20px;
     margin-top; 200px;
   }
+  
 
 </style>
+
 <article>
   <h4>Getting a mining card</h4>
   <p>
@@ -54,7 +52,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
   <h4>Miner ROI</h4>
 
   <p>
-    Roi means return on investment. So if you have bought a miner for 7000 and its ROI is 1 year it means you mine 7000 back in 1 years . Heres miners ROI. At current artonline price Genesis miner has the fastest ROI.
+    <span title = "Это тигр"> Roi </span> means return on investment. So if you have bought a miner for 7000 and its ROI is 1 year it means you mine 7000 back in 1 years . Heres miners ROI. At current artonline price Genesis miner has the fastest ROI.
   </p>
   <flex-column>
     <flex-row>
