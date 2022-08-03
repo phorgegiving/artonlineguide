@@ -1,3 +1,4 @@
+import {article} from './../shared-styles/shared'
 export default customElements.define('platform-guide', class PlatformGuide extends HTMLElement {
   constructor() {
     super()
@@ -25,13 +26,7 @@ export default customElements.define('platform-guide', class PlatformGuide exten
   container-element {
     margin-bottom: 24px;
   }
-  article {
-    margin: 5em auto 0;
-    padding: 1em;
-    font-size: 140%;
-    max-width: 800px;
-    margin-top; 200px;
-  }
+  ${article}
   
 
 </style>
