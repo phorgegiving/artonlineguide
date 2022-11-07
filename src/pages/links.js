@@ -1,3 +1,4 @@
+import {article} from './../shared-styles/shared'
 export default customElements.define('links-page', class LinksPage extends HTMLElement {
   constructor() {
     super()
@@ -17,17 +18,7 @@ export default customElements.define('links-page', class LinksPage extends HTMLE
         color: var(--main-color);
         text-decoration: none;
       }
-      article {
-        margin: 5em auto 0;
-        padding: 1em;
-        font-size: 140%;
-        max-width: 800px;
-        background: var(--secondary-background-color);
-        color: #eee;
-        box-shadow: rgba(0,0,0,.05) 0 3px 15px;
-        border-radius: 20px;
-        min-width: 400px;
-      }
+${article}
     </style>
     <article>
     <ul>

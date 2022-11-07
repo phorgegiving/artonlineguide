@@ -1,3 +1,4 @@
+import {article} from './../shared-styles/shared'
 export default customElements.define('exchange-guide', class ExchangeGuide extends HTMLElement {
   constructor() {
     super()
@@ -22,33 +23,11 @@ export default customElements.define('exchange-guide', class ExchangeGuide exten
   }
   a {
     pointer-events: auto;
-    color: coral;
+    color: var(--wave-color);;
     text-decoration: none;
   }
-  article {
-    margin: 5em auto 0;
-    padding: 1em;
-    font-size: 140%;
-    max-width: 800px;
-    background: var(--secondary-background-color);
-    color: #eee;
-    box-shadow: rgba(0,0,0,.05) 0 3px 15px;
-    border-radius: 20px;
-    transition: background-color 500ms;
-  }
+  ${article}
 
-  ::-webkit-scrollbar {
-    width: 12px;
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
-}
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
-    border-radius: 10px;
-}
- 
 </style>
 
 

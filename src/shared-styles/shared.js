@@ -17,6 +17,7 @@ export const article = `
     padding: 1em;
     font-size: 140%;
     max-width: 800px;
+    min-width: 400px;
     background: var(--article-color);
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     border-radius: 20px;
