@@ -86,6 +86,7 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
   span{
     color: var(--wave-color);
   }
+  
     </style>
   
     <div class="content">
@@ -116,6 +117,10 @@ var home = customElements.define('home-page', class HomePage extends HTMLElement
 </path></g>
 </svg>
       </div>
+    </div>
+    <div background: var(--wave-color);>
+      ooga
+      no
     </div>
     `
 

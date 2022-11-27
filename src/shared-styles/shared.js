@@ -24,3 +24,30 @@ export const article = `
     margin-top; 200px;
   }
   `
+
+  export const footerstyle = `
+  .footer {
+   background: #111;
+   height: 10%;
+   width: 100%;
+   text-align: center;
+  }
+  `
+
+  export const footer = `
+  <div class="footer">
+  links and boring stuff
+  </div>
+  `
+  export const floatyRight =`
+  .floatyRight{
+    position: fixed;
+    position:sticky
+    width: 50 px;
+    margin-left: 80%;
+    z-index: 9999;
+    margin-top: 50vh;
+    background: var(--article-color);
+    border-radius: 20px;
+  }
+  `
